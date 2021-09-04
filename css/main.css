@@ -4,6 +4,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    font-family: "Roboto";
 }
 
 ::-moz-selection {
@@ -78,25 +79,24 @@ section.destacada .contenido {
 }
 
 section.destacada .contenido h1 {
-    padding: 30px 50 px;
+    padding: 30px 50px;
     border: 1px solid #fff;
-    color: #fff;
+    color: #000;
     font-size: 2rem;
     text-transform: uppercase;
     margin: 0 auto;
     width: 60%;
 }
 
-section.agencia {
-    background-color: #ebeeed;
+section.defintion {
     padding: 10px;
 }
 
-section.agencia .borde {
+section.defintion .borde {
     border: 1px solid #aeb4b7;
 }
 
-section.agencia p {
+section.defintion p {
     margin-bottom: 40px;
 }
 
@@ -152,6 +152,14 @@ footer p {
 
 section.informacion {
     padding: 30px 0;
+}
+
+section.informacion h2 {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    margin: 0 0 24px;
+    text-align: center;
 }
 
 /* ==========================================================================
